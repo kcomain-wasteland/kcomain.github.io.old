@@ -59,3 +59,6 @@ Private Sub Label7_Click()
 
 End Sub
 
+Private Sub page_Change()
+
+End Sub
