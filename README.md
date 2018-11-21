@@ -10,6 +10,8 @@ _this is **RIGHT!!!** _
 
 This page look like junk at first glance.
 I am creating folders and things later on.
+
+So, so not look at this page, it is only for messy peoples. ¯\_(ツ)_/¯
 ### Mentions
 @kcomain
 #### Things...
@@ -18,5 +20,9 @@ I am creating folders and things later on.
 * JS programs
 * Makecode Microbit Programs
 * html things
+* Misc. stuffs that i store in my computer(ITS ALL CODING STUFFS DONT WORRY)
 
-# So yeah!
+*So yeah!*
+
+## News 
+YAY i have updated the webpage and move all the files into "Dirs" (2018/11/21)
