@@ -1,0 +1,23 @@
+@echo off
+set /P fileNAME="Choose the name that you want to...\n"
+if %ERRORLEVEL%==1 goto :oops
+set /P numberTimes="Choose the number that you want to...\n"
+if %ERRORLEVEL%==1 goto :oops
+if %numberTimes% == 0 goto :oops
+
+
+
+
+//set loopcount=[Number of times]
+//:loop
+//[Commands you want to repeat]
+//set /a loopcount=loopcount-1
+//if %loopcount%==0 goto exitloop
+//goto loop
+//:exitloop
+
+:oops
+echo The data is wrong or you typed in nothing...
+setx 
+set '%fileName% = '
+set %numberTimes% = 
