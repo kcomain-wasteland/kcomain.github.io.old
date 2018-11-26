@@ -28,3 +28,6 @@ So, so not look at this page, it is only for messy peoples. ¯\_(ツ)_/¯
 YAY i have updated the webpage and move all the files into "Dirs" (2018/11/21)
 
 Erm (2018/11/22)
+
+### Disclamer
+Some codes are not provided by me.
