@@ -33,3 +33,6 @@ I am leaving this repo for a while so i decided to update the news part. (2018/1
 
 ### Disclamer
 Some codes are not provided by me.
+
+# Misc Part
+idk what is this part doing
