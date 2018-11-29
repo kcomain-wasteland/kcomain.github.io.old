@@ -29,5 +29,7 @@ YAY i have updated the webpage and move all the files into "Dirs" (2018/11/21)
 
 Erm (2018/11/22)
 
+I am leaving this repo for a while so i decided to update the news part. (2018/11/29)
+
 ### Disclamer
 Some codes are not provided by me.
