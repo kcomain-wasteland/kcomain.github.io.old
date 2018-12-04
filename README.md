@@ -31,8 +31,13 @@ Erm (2018/11/22)
 
 I am leaving this repo for a while so i decided to update the news part. (2018/11/29)
 
+I am still making apps so please wait... (2018/12/04)
+
 ### Disclamer
 Some codes are not provided by me.
 
 # Misc Part
 idk what is this part doing
+
+YESYESYEYSEYSYEUYDUIYDUIASHUIQ WEGHRYC@#&*RE&*O R#&*YO&*($#^!(ICHE&*R*(EYO#RIHWEIYLO@#RFB 
+oops :oops:
