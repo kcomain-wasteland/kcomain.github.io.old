@@ -6,7 +6,11 @@ Yes
 :innocent:
 :sunny:
 
-_this is **RIGHT!!!** _
+# Want To speak?
+Join my slack at this address [Here!](https://join.slack.com/t/kcocorp-prst/shared_invite/enQtNTA1OTE0MzQzMzk3LWVhMjA3YmZmNmIwOWJlN2RhNTE1ODYxN2ZkMGRmMDQ1ZmU3YjgzMDk4OWM0NTVkNDY5OGU1ZTc2NDYzMDE2M2Q)
+
+## Others...?
+__this is **RIGHT!!!**__
 
 This page look like junk at first glance.
 I am creating folders and things later on.
@@ -37,7 +41,4 @@ I am still making apps so please wait... (2018/12/04)
 Some codes are not provided by me.
 
 # Misc Part
-idk what is this part doing
-
-YESYESYEYSEYSYEUYDUIYDUIASHUIQ WEGHRYC@#&*RE&*O R#&*YO&*($#^!(ICHE&*R*(EYO#RIHWEIYLO@#RFB 
-oops :oops:
+idk what is this part doing lol /shrug 
