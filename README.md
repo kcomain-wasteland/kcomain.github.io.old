@@ -1,4 +1,4 @@
-[https://discord.gg/8DRnhev]([![](https://img.shields.io/discord/397074345475964929.svg?style=plastic))
+[![](https://img.shields.io/discord/397074345475964929.svg?style=plastic)](https://discord.gg/8DRnhev)
 # kcomain.github.io
 A web.
 _HAHA_
