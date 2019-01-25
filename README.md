@@ -10,6 +10,7 @@ Yes
 # Want To speak?
 Join my slack at this address [Here!](https://join.slack.com/t/kcocorp-prst/shared_invite/enQtNTA1OTE0MzQzMzk3LWVhMjA3YmZmNmIwOWJlN2RhNTE1ODYxN2ZkMGRmMDQ1ZmU3YjgzMDk4OWM0NTVkNDY5OGU1ZTc2NDYzMDE2M2Q)
 
+Or, my discord server at the image above!
 ## Others...?
 __this is **RIGHT!!!**__
 
