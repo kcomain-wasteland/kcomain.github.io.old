@@ -1,6 +1,6 @@
 # Title
 
->>Body
+>Body
 
 [Original]("Link")
 
