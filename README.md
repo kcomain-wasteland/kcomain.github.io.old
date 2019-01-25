@@ -1,5 +1,5 @@
 [![](https://img.shields.io/discord/397074345475964929.svg?style=plastic)](https://discord.gg/8DRnhev)
-![](https://img.shields.io/github/repo-size/kcomain/kcomain.github.io.svg?label=Repositary%20size&style=popout)
+![](https://img.shields.io/github/repo-size/kcomain/kcomain.github.io.svg?label=Repository%20size&style=popout)
 ![](https://img.shields.io/github/downloads/kcomain/kcomain.github.io/total.svg)
 ![](https://img.shields.io/github/issues/kcomain/kcomain.github.io.svg)
 ![](https://img.shields.io/github/license/kcomain/kcomain.github.io.svg)
