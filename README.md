@@ -16,7 +16,7 @@ __this is **RIGHT!!!**__
 This page look like junk at first glance.
 I am creating folders and things later on.
 
-So, so not look at this page, it is only for messy peoples. ¯\_(ツ)_/¯
+So, so not look at this page, it is only for people who like messy things like me https://github.githubassets.com/images/icons/emoji/unicode/1f606.png. ¯\_(ツ)_/¯
 ### Mentions
 @kcomain
 #### Things...
