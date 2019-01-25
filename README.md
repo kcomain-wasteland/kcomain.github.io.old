@@ -38,6 +38,8 @@ I am leaving this repo for a while so i decided to update the news part. (2018/1
 
 I am still making apps so please wait... (2018/12/04)
 
+The 2019 IH Project webpage is in the development stage. (2019/01/25)
+
 ### Disclamer
 Some codes are not provided by me.
 
