@@ -16,7 +16,7 @@ __this is **RIGHT!!!**__
 This page look like junk at first glance.
 I am creating folders and things later on.
 
-So, so not look at this page, it is only for people who like messy things like me https://github.githubassets.com/images/icons/emoji/unicode/1f606.png. ¯\_(ツ)_/¯
+So, so not look at this page, it is only for people who like messy things like me XD
 ### Mentions
 @kcomain
 #### Things...
@@ -26,7 +26,7 @@ So, so not look at this page, it is only for people who like messy things like m
 * Makecode Microbit Programs
 * html things
 * Misc. stuffs that i store in my computer(ITS ALL CODING STUFFS DONT WORRY)
-
+* Project things
 *So yeah!*
 
 ## News 
@@ -44,4 +44,4 @@ The 2019 IH Project webpage is in the development stage. (2019/01/25)
 Some codes are not provided by me.
 
 # Misc Part
-idk what is this part doing lol /shrug 
+idk what is this part doing lol 
