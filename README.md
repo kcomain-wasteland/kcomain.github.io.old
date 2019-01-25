@@ -17,10 +17,8 @@ Yes
 # Want To speak?
 Join my slack at this address [Here!](https://join.slack.com/t/kcocorp-prst/shared_invite/enQtNTA1OTE0MzQzMzk3LWVhMjA3YmZmNmIwOWJlN2RhNTE1ODYxN2ZkMGRmMDQ1ZmU3YjgzMDk4OWM0NTVkNDY5OGU1ZTc2NDYzMDE2M2Q)
 
-Or, my discord server at the image above!
+Or, my discord server at the image above!(Contain some nsfw channels.)
 ## Others...?
-__this is **RIGHT!!!**__
-
 This page look like junk at first glance.
 I am creating folders and things later on.
 
@@ -46,7 +44,7 @@ I am leaving this repo for a while so i decided to update the news part. (2018/1
 
 I am still making apps so please wait... (2018/12/04)
 
-The 2019 IH Project webpage is in the development stage. (2019/01/25)
+The 2019 IH Project webpage is in the development stage. More informations can be viewed on [here](https://kcomain.github.io/ihpj) (2019/01/25)
 
 ### Disclamer
 Some codes are not provided by me.
