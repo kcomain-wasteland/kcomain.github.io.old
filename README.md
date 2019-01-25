@@ -1,4 +1,5 @@
 [![](https://img.shields.io/discord/397074345475964929.svg?style=plastic)](https://discord.gg/8DRnhev)
+![](https://img.shields.io/github/repo-size/kcomain/kcomain.github.io.svg?label=Repositary%20size&style=popout)
 # kcomain.github.io
 A web.
 _HAHA_
