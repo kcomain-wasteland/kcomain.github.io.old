@@ -46,8 +46,7 @@ I am still making apps so please wait... (2018/12/04)
 
 The 2019 IH Project webpage is in the development stage. More informations can be viewed on [here](https://kcomain.github.io/ihpj) (2019/01/25)
 
+System is updating...website is kinda down, especially the main oage :joy: (2019/02/18)
+
 ### Disclamer
 Some codes are not provided by me.
-
-# Misc Part
-idk what is this part doing lol 
