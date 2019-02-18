@@ -3,7 +3,7 @@
 ![](https://img.shields.io/github/downloads/kcomain/kcomain.github.io/total.svg)
 ![](https://img.shields.io/github/issues/kcomain/kcomain.github.io.svg)
 ![](https://img.shields.io/github/license/kcomain/kcomain.github.io.svg)
-![](https://img.shields.io/github/release-pre/kcomain/kcomain.github.io.svg)
+![https://github.com/kcomain/kcomain.github.io/releases](https://img.shields.io/github/release-pre/kcomain/kcomain.github.io.svg)
 [![](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=Website)](https://kcomain.github.io)
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg)
 # kcomain.github.io
