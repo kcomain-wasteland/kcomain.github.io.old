@@ -5,7 +5,7 @@
 ![](https://img.shields.io/github/license/kcomain/kcomain.github.io.svg)
 [![](https://img.shields.io/github/release-pre/kcomain/kcomain.github.io.svg)](https://github.com/kcomain/kcomain.github.io/releases)
 [![](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=Website)](https://kcomain.github.io)
-![](https://img.shields.io/badge/build-passing-brightgreen.svg)
+[![Build Status](https://travis-ci.com/kcomain/kcomain.github.io.svg?branch=master)](https://travis-ci.com/kcomain/kcomain.github.io)
 # kcomain.github.io
 A web.
 _HAHA_
