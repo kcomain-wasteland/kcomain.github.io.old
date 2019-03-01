@@ -48,5 +48,7 @@ The 2019 IH Project webpage is in the development stage. More informations can b
 
 System is updating...website is kinda down, especially the main oage :joy: (2019/02/18)
 
+System update finished, added 404 page, added robots.txt.(2019/03/01)
+
 ### Disclamer
 Some codes are not provided by me.
