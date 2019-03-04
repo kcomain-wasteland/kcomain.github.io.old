@@ -18,7 +18,7 @@ Yes
 # Want To speak?
 Join my slack at this address [Here!](https://join.slack.com/t/kcocorp-prst/shared_invite/enQtNTA1OTE0MzQzMzk3LWVhMjA3YmZmNmIwOWJlN2RhNTE1ODYxN2ZkMGRmMDQ1ZmU3YjgzMDk4OWM0NTVkNDY5OGU1ZTc2NDYzMDE2M2Q)
 
-Or, my discord server at the image above!(Contain some nsfw channels.)
+Or, my discord server at the image above!(Contain one nsfw channel.)
 ## Others...?
 This page look like junk at first glance.
 I am creating folders and things later on.
@@ -50,6 +50,10 @@ The 2019 IH Project webpage is in the development stage. More informations can b
 System is updating...website is kinda down, especially the main oage :joy: (2019/02/18)
 
 System update finished, added 404 page, added robots.txt.(2019/03/01)
+
+YO humans.txt have been added we are humans after all!(2019/02/??)
+
+Hey pals the site image have been created.(readme.md)(2019/03/04)
 
 ### Disclamer
 Some codes are not provided by me.
