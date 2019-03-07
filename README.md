@@ -57,3 +57,13 @@ Hey pals the site image have been created.(readme.md)(2019/03/04)
 
 ### Disclamer
 Some codes are not provided by me.
+
+<p id="dirlocachag">LMAO Can't load directory.</p>
+      <script>
+      var dir = location.pathname.substring(0,location.pathname.lastIndexOf('/')+1);
+      document.getElementById("dirlocachag").innerHTML = "Current Directory is "+dir;
+     </script><p id="dirlocachag">LMAO Can't load directory.</p>
+      <script>
+      var dir = location.pathname.substring(0,location.pathname.lastIndexOf('/')+1);
+      document.getElementById("dirlocachag").innerHTML = "Current Directory is "+dir;
+     </script>
