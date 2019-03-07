@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hangman</title>
+<style id="jsbin-css">
+* {
+  font-family: "Courier New";
+}
+#word {
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 30px;
+}
+button {
+ margin: 0px;
+  height: 80px;
+  width: 80px;
+  font-family: "Century Gothic";
+  font-size: 30px;
+}
+#newGame {
+  width: 80px;
+  height: 20px;
+  font-size: 10px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+</style>
+</head>
+  <body><button id="newGame">New Game</button>
+  <canvas width='100' height='100'>
+    Your browser can't draw!
+  </canvas>
+  <div id="word"></div>
+  <hr>
+  <div id="lives"></div>
+  <hr>
+  <div id="buttons">
+    <button class="guess vowel btn btn-info">A</button><button class="guess vowel btn btn-info">E</button><button class="guess vowel btn btn-info">I</button><button class="guess vowel btn btn-info">O</button><button class="guess vowel btn btn-info">U</button><hr>
+    <button class="guess consonant btn btn-info">B</button><button class="guess consonant btn btn-info">C</button><button class="guess consonant btn btn-info">D</button><button class="guess consonant btn btn-info">F</button><button class="guess consonant btn btn-info">G</button><button class="guess consonant btn btn-info">H</button><button class="guess consonant btn btn-info">J</button><button class="guess consonant btn btn-info">K</button><button class="guess consonant btn btn-info">L</button><button class="guess consonant btn btn-info">M</button><button class="guess consonant btn btn-info">N</button><button class="guess consonant btn btn-info">P</button><button class="guess consonant btn btn-info">Q</button><button class="guess consonant btn btn-info">R</button><button class="guess consonant btn btn-info">S</button><button class="guess consonant btn btn-info">T</button><button class="guess consonant btn btn-info">V</button><button class="guess consonant btn btn-info">W</button><button class="guess consonant btn btn-info">X</button><button class="guess consonant btn btn-info">Y</button><button class="guess consonant btn btn-info">Z</button></div>
+  
+<script id="jsbin-javascript">
+//bind HTML to variables
+var guessingButtons = $('.guess');
+var wordText = $('#word');
+var livesText = $('#lives');
+//choose the secret word
+var nounList = [
+  "CALYPSO",
+  "ANNIE",
+  "OLIVER",
+  "HEBE",
+  "KENNY",
+  "OWEN",
+  "CHLOE",
+  "IVANKA",
+  "RINGO",
+  "WOLF",
+  "STEAM",
+  "MARCO",
+  "SNACKS",
+  "WATER",
+  "FRIES",
+  "TEACHER",
+  "EXAMS",
+  "DANIEL",
+  "LINCOLN",
+  "LIANA",
+  "ZOO"
+];
+var adjectiveList = [
+  "BAD",
+  "GOOD",
+  "CLEVER",
+  "STUPID",
+  "HORRIFYING",
+  "DELIGHTFUL",
+  "SCARED",
+  "BRAVE",
+  "ANGRY",
+  "DISAPPOINTED",
+  "HUNGRY",
+  "NOISY",
+  "SLOW",
+  "FAST",
+  "QUIET",
+  "ANNOYING",
+  "ENJOYABLE",
+  "DARK",
+  "LIGHT",
+  "EVIL",
+  "HEROIC",
+  "SUPER",
+  "POWERFUL",
+  "WEAK",
+  "BEAUTIFUL",
+  "UGLY",
+  "CRAZY"
+];
+var word = chooseRandomWord(nounList, adjectiveList);
+var hiddenWord = writeStars(word);
+//starting number of lives
+var lives = 10;
+//write the starting wordText and livesText
+livesText.html('Lives: '+lives);
+wordText.html(hiddenWord);
+//function to reveal letters
+function reveal(letter){
+  var newHiddenWord = "";
+  var i=0;
+  var wrong = true;
+  do {
+    if(letter===word[i]){
+      //the letter is in the word
+      wrong = false;
+      newHiddenWord+=word[i];
+    }else{
+      //the letter is not in the word
+      newHiddenWord+=hiddenWord[i];
+    }
+    i++;
+  } while(i<word.length);
+  if(wrong){
+    lives= lives-1;
+    drawMan(lives);
+     livesText.html('Lives: '+lives);
+    if(lives===0){
+      gameOverLoser();
+    }
+  }else{
+     hiddenWord = newHiddenWord;
+  wordText.html(hiddenWord);
+    if(word===hiddenWord){
+      youWin();
+    }
+  }
+ 
+}
+//function for LOSING
+function gameOverLoser(){
+  $('.guess').prop('disabled',true);
+  $('#word').html(word);
+  $('body').css('background','red');
+  $('*').css('color','yellow');
+}
+//function for WINNING!!!!!!!!!!!!!!
+function youWin(){
+  $('body').css('background','#1FDE4F');
+ $('.guess').prop('disabled',true); $('#word').css('color','#8C3056');
+}
+//run the reveal function when someone guesses a letter
+$('.guess').click(function(){
+  reveal($(this).html());
+  $(this).hide();
+});
+//TODO: show a list of the wrong letters
+//TODO: make the hidden word automatically
+function writeStars(word){
+  var stars = "";
+  for(var x = 0; x < word.length; x++){
+    if(word[x]===" "){
+      //there is no letter, it's a space
+      stars+=" ";
+    }else{
+      //it is a letter
+       stars+="*";
+    }   
+  }
+  return stars;
+}
+//TODO: make the game choose different words
+function chooseRandomWord(nouns, adjectives){
+  var xnoun = Math.floor((Math.random() *   nouns.length ));
+  var xadj = Math.floor((Math.random() *   adjectives.length ));
+  
+  
+  
+  return adjectives[xadj]+" "+nouns[xnoun];
+}
+    var canv = $('canvas').get(0);
+  var draw = canv.getContext('2d');
+  
+  
+function drawMan(x){
+ draw.clearRect(0, 0, canv.width, canv.height);
+  if(x<=9){
+ draw.beginPath();
+  draw.moveTo(10,100);
+  draw.lineTo(90,100);
+  draw.stroke();
+  }
+    
+  if(x<=8){
+ draw.beginPath();
+  draw.moveTo(10,100);
+  draw.lineTo(10,0);
+  draw.stroke();
+  }
+  
+  if(x<=7){
+  draw.beginPath();
+  draw.moveTo(10,0);
+  draw.lineTo(50,0);
+  draw.stroke();
+  }
+  
+  if(x<=6){
+  draw.beginPath();
+  draw.moveTo(50,0);
+  draw.lineTo(50,10);
+  draw.stroke();
+  }
+  
+  if(x<=5){
+  draw.beginPath();
+ draw.arc(50,20,10,2*Math.PI,0);
+  draw.stroke();
+  }
+  
+  if(x<=4){
+  draw.beginPath();
+  draw.moveTo(50,30);
+  draw.lineTo(50,60);
+  draw.stroke();
+  }
+  
+  if(x<=3){
+  draw.beginPath();
+  draw.moveTo(50,35);
+  draw.lineTo(60,50);
+  draw.stroke();
+  }
+  
+  if(x<=2){
+  draw.beginPath();
+//   draw.moveTo(50,35);
+  draw.lineTo(40,50);
+  draw.stroke();
+  }
+  
+  if(x<=1){
+  draw.beginPath();
+  draw.moveTo(50,60);
+  draw.lineTo(60,80);
+  draw.stroke();
+  }
+  
+  if(x<=0){
+  draw.beginPath();
+  draw.moveTo(50,60);
+  draw.lineTo(40,80);
+  draw.stroke();
+  }
+  
+}  
+$('#newGame').click(function(){
+  location.reload();
+});
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">* {
+  font-family: "Courier New";
+}
+#word {
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 30px;
+}
+button {
+ margin: 0px;
+  height: 80px;
+  width: 80px;
+  font-family: "Century Gothic";
+  font-size: 30px;
+}
+#newGame {
+  width: 80px;
+  height: 20px;
+  font-size: 10px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">//bind HTML to variables
+var guessingButtons = $('.guess');
+var wordText = $('#word');
+var livesText = $('#lives');
+//choose the secret word
+var nounList = [
+  "CALYPSO",
+  "ANNIE",
+  "OLIVER",
+  "HEBE",
+  "KENNY",
+  "OWEN",
+  "CHLOE",
+  "IVANKA",
+  "RINGO",
+  "WOLF",
+  "STEAM",
+  "MARCO",
+  "SNACKS",
+  "WATER",
+  "FRIES",
+  "TEACHER",
+  "EXAMS",
+  "DANIEL",
+  "LINCOLN",
+  "LIANA",
+  "ZOO"
+];
+var adjectiveList = [
+  "BAD",
+  "GOOD",
+  "CLEVER",
+  "STUPID",
+  "HORRIFYING",
+  "DELIGHTFUL",
+  "SCARED",
+  "BRAVE",
+  "ANGRY",
+  "DISAPPOINTED",
+  "HUNGRY",
+  "NOISY",
+  "SLOW",
+  "FAST",
+  "QUIET",
+  "ANNOYING",
+  "ENJOYABLE",
+  "DARK",
+  "LIGHT",
+  "EVIL",
+  "HEROIC",
+  "SUPER",
+  "POWERFUL",
+  "WEAK",
+  "BEAUTIFUL",
+  "UGLY",
+  "CRAZY"
+];
+var word = chooseRandomWord(nounList, adjectiveList);
+var hiddenWord = writeStars(word);
+//starting number of lives
+var lives = 10;
+//write the starting wordText and livesText
+livesText.html('Lives: '+lives);
+wordText.html(hiddenWord);
+//function to reveal letters
+function reveal(letter){
+  var newHiddenWord = "";
+  var i=0;
+  var wrong = true;
+  do {
+    if(letter===word[i]){
+      //the letter is in the word
+      wrong = false;
+      newHiddenWord+=word[i];
+    }else{
+      //the letter is not in the word
+      newHiddenWord+=hiddenWord[i];
+    }
+    i++;
+  } while(i<word.length);
+  if(wrong){
+    lives= lives-1;
+    drawMan(lives);
+     livesText.html('Lives: '+lives);
+    if(lives===0){
+      gameOverLoser();
+    }
+  }else{
+     hiddenWord = newHiddenWord;
+  wordText.html(hiddenWord);
+    if(word===hiddenWord){
+      youWin();
+    }
+  }
+ 
+}
+//function for LOSING
+function gameOverLoser(){
+  $('.guess').prop('disabled',true);
+  $('#word').html(word);
+  $('body').css('background','red');
+  $('*').css('color','yellow');
+}
+//function for WINNING!!!!!!!!!!!!!!
+function youWin(){
+  $('body').css('background','#1FDE4F');
+ $('.guess').prop('disabled',true); $('#word').css('color','#8C3056');
+}
+//run the reveal function when someone guesses a letter
+$('.guess').click(function(){
+  reveal($(this).html());
+  $(this).hide();
+});
+//TODO: show a list of the wrong letters
+//TODO: make the hidden word automatically
+function writeStars(word){
+  var stars = "";
+  for(var x = 0; x < word.length; x++){
+    if(word[x]===" "){
+      //there is no letter, it's a space
+      stars+=" ";
+    }else{
+      //it is a letter
+       stars+="*";
+    }   
+  }
+  return stars;
+}
+//TODO: make the game choose different words
+function chooseRandomWord(nouns, adjectives){
+  var xnoun = Math.floor((Math.random() *   nouns.length ));
+  var xadj = Math.floor((Math.random() *   adjectives.length ));
+  
+  
+  
+  return adjectives[xadj]+" "+nouns[xnoun];
+}
+    var canv = $('canvas').get(0);
+  var draw = canv.getContext('2d');
+  
+  
+function drawMan(x){
+ draw.clearRect(0, 0, canv.width, canv.height);
+  if(x<=9){
+ draw.beginPath();
+  draw.moveTo(10,100);
+  draw.lineTo(90,100);
+  draw.stroke();
+  }
+    
+  if(x<=8){
+ draw.beginPath();
+  draw.moveTo(10,100);
+  draw.lineTo(10,0);
+  draw.stroke();
+  }
+  
+  if(x<=7){
+  draw.beginPath();
+  draw.moveTo(10,0);
+  draw.lineTo(50,0);
+  draw.stroke();
+  }
+  
+  if(x<=6){
+  draw.beginPath();
+  draw.moveTo(50,0);
+  draw.lineTo(50,10);
+  draw.stroke();
+  }
+  
+  if(x<=5){
+  draw.beginPath();
+ draw.arc(50,20,10,2*Math.PI,0);
+  draw.stroke();
+  }
+  
+  if(x<=4){
+  draw.beginPath();
+  draw.moveTo(50,30);
+  draw.lineTo(50,60);
+  draw.stroke();
+  }
+  
+  if(x<=3){
+  draw.beginPath();
+  draw.moveTo(50,35);
+  draw.lineTo(60,50);
+  draw.stroke();
+  }
+  
+  if(x<=2){
+  draw.beginPath();
+//   draw.moveTo(50,35);
+  draw.lineTo(40,50);
+  draw.stroke();
+  }
+  
+  if(x<=1){
+  draw.beginPath();
+  draw.moveTo(50,60);
+  draw.lineTo(60,80);
+  draw.stroke();
+  }
+  
+  if(x<=0){
+  draw.beginPath();
+  draw.moveTo(50,60);
+  draw.lineTo(40,80);
+  draw.stroke();
+  }
+  
+}  
+$('#newGame').click(function(){
+  location.reload();
+});
+</script></body>
+</html>
