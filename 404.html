@@ -29,6 +29,11 @@ permalink: /404.html
     <p><a href="#" class="btn btn-info" role="button"><i class="fab fa-twitter"></i> Twitter(wip)</a></p>
     <p><a href="https://www.youtube.com/channel/UCuZYWIffO6DoGoz5xSHls7g" class="btn btn-danger" role="button"><i class="fab fa-youtube"></i> YouTube Channel</a></p>
     <p><a href="https://github.com/kcomain/kcomain.github.io" class="btn btn-warning" role="button"><i class="fab fa-github"></i> GitHub Repo</a></p>
+      <script>
+      var dir = location.pathname.substring(0,location.pathname.lastIndexOf('/')+1);
+      document.getElementById("dirlocachag").innerHTML = "Current Directory is "+dir;
+     </script>
+      <p id="dirlocachag">LMAO Can't load directory.</p>
     </div>
   </body>
 </html>
