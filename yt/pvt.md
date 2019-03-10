@@ -5,10 +5,10 @@ hey
  <button onClick="update()">Update the ch-aoos NOW</button>
 <script>
   function update(){
-  document.getElementById('pew').src = document.getElementById('iframeid').src
-  document.getElementById('suc').src = document.getElementById('iframeid').src
+  document.getElementById('pew').src = document.getElementById('pew').src
+  document.getElementById('suc').src = document.getElementById('suc').src
  }
 </script>
 
 
-### build #22
+### build #23
