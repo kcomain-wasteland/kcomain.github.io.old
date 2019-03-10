@@ -5,8 +5,8 @@ hey
  
 <script>
   function update(){
-  document.getElementById('pew').contentWindow.location.reload();
-  document.getElementById('suc').contentWindow.location.reload();
+  document.getElementById('pew').src = document.getElementById('iframeid').src
+  document.getElementById('suc').src = document.getElementById('iframeid').src
  }
 </script>
 <button onClick="update()">Update the ch-aoos NOW</button>
