@@ -1,3 +1,3 @@
 # Hey
 
-[main page](subs)
+[main page](subs.md)
