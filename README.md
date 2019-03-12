@@ -27,7 +27,7 @@ So, so not look at this page, it is only for people who like messy things like m
 ### Mentions
 @kcomain
 #### Things...
-- [x] A thing
+- [ ] A thing
 ## Things that will be stored in this website:
 * JS programs
 * Makecode Microbit Programs
