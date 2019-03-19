@@ -55,6 +55,8 @@ YO humans.txt have been added we are humans after all!(2019/02/??)
 
 Hey pals the site image have been created.(readme.md)(2019/03/04)
 
+WOOOOOT Brand New Items!!!!! Will Updae frequently in these few days. (2019/03/19)(Wonderful Date 19/03/19)
+
 ### Disclamer
 Some codes are not provided by me.
 
