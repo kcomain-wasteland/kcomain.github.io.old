@@ -25,19 +25,41 @@ permalink: /404.html
     <p>&nbsp</p>
     <h2 id="links">Links</h2>
       <div class="container-fluid">
-     	  <p><button onclick="window.history.back()" class="btn btn-info"><i class="fas fa-arrow-left"></i> Go Back</button></p>
-     	  <p><a href="/" class="btn btn-success" role="button"><i class="fas fa-home"></i> Home Page</a></p>
-    		<p><a href="#" class="btn btn-info" role="button"><i class="fab fa-twitter"></i> Twitter(wip)</a></p>
-   		  <p><a href="https://www.youtube.com/channel/UCuZYWIffO6DoGoz5xSHls7g" class="btn btn-danger" role="button"><i class="fab fa-youtube"></i> YouTube Channel</a></p>
-   		  <p><a href="https://github.com/kcomain/kcomain.github.io" class="btn btn-warning" role="button"><i class="fab fa-github"></i> GitHub Repo</a></p>
-				<p><a href="//scratch.mit.edu/users/kcomain" class="btn btn-outline-warning" role="button">Scratch</a></p>
+      <div class="row">
+     	  <div class="col-sm"><button onclick="window.history.back()" class="btn btn-info"><i class="fas fa-arrow-left"></i> Go Back</button></div>
+     	  <div class="col-sm"><a href="/" class="btn btn-success" role="button"><i class="fas fa-home"></i> Home Page</a></div>
+    	  <div class="col-sm"><a href="#" class="btn btn-info" role="button"><i class="fab fa-twitter"></i> Twitter(wip)</a></div>
+   		  <div class="col-sm"><a href="https://www.youtube.com/channel/UCuZYWIffO6DoGoz5xSHls7g" class="btn btn-danger" role="button"><i class="fab fa-youtube"></i> YouTube Channel</a></div>
+   		  <div class="col-sm"><a href="https://github.com/kcomain/kcomain.github.io" class="btn btn-warning" role="button"><i class="fab fa-github"></i> GitHub Repo</a></div>
+		  <div class="col-sm"><a href="//scratch.mit.edu/users/kcomain" class="btn btn-outline-warning" role="button">Scratch</a></div>
+       </div>
       </div>
       <p id="dirlocachag">LMAO Can't load directory.</p>
       <script>
       var dir = location.pathname.substring(0,location.pathname.lastIndexOf('/')+1);
       document.getElementById("dirlocachag").innerHTML = "Current Directory is "+dir;
      </script>
-      
+      <noscript>
+		<p>oof no script runs... Disable ur no script...</p>
+		</noscript>
+    </div>
+    <div class="container">
+    	<script>
+			function getCookie(cname) {
+ 			 var name = cname + "=";
+ 			 var decodedCookie = decodeURIComponent(document.cookie);
+			 var ca = decodedCookie.split(';');
+ 			 for(var i = 0; i <ca.length; i++) {
+   				 var c = ca[i];
+   					 while (c.charAt(0) == ' ') {
+     					 c = c.substring(1);
+    				}
+   			 if (c.indexOf(name) == 0) {
+    		  return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
     </div>
   </body>
 </html>
