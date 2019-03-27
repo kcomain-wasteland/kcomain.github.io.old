@@ -39,7 +39,8 @@ So, so not look at this page, it is only for people who like messy things like m
 
 ## News 
 
-Moved to [News](/sitenews)
+Moved to [News](/sitenews.md)
+*[for webpage viewers](/sitenews.html)*
 
 ### Disclamer
 Some codes are not provided by me.
