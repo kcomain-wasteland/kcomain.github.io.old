@@ -7,6 +7,7 @@
 [![](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=Website)](https://kcomain.github.io)
 [![Build Status](https://travis-ci.com/kcomain/kcomain.github.io.svg?branch=master)](https://travis-ci.com/kcomain/kcomain.github.io)
 [![Web Image](resources/86EB92AA-CEC9-4E95-8542-00B9ECCCB03D.png)](https://kcomain.github.io)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/kcomain)
 # kcomain.github.io
 A web.
 _HAHA_
