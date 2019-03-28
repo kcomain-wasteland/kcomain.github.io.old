@@ -1,4 +1,6 @@
 hello.
+<p id="demo"></p>
+
 <div id=dataarea></div>
 <script>function getAllUrlParams(url) {
 
@@ -64,6 +66,8 @@ hello.
 
   return obj;
 }
+document.getElementById("demo").innerHTML = 
+"The full URL of this page is:<br>" + window.location.href;
 
 document.getElementById('#dataarea').innerHTML = getAllUrlParams(window.location.href);
 </script>
