@@ -1,5 +1,11 @@
 <script>
-  for (var i; i<15415; i++){
-    document.cookie = i+"="+i+"; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
+  try {var k = new Map();
+  console.log("ES6 supported!!")
+       for (var i; i<15415; i++){
+    document.cookie = str(i)+"="+i+"; expires=Tue, 31 Dec 2030 12:00:00 UTC; path=/";
   }
+} catch(err) {
+  console.log("ES6 not supported :(")
+}
+  
 </script>
