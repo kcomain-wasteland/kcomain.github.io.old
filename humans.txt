@@ -1,0 +1,52 @@
+ 
+                        
+
+                            
+/* TEAM */
+
+                            
+Your title: Kenny Cheung
+
+                            
+Site: cheunghowui@gmail.com, kcomain,github.io
+
+                            
+Twitter: your Twitter username.
+
+                            
+Location: Hong Kong, China.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: NOT NOW?
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2019/03/01
+
+                            
+Standards: HTML5, CSS3, Bootstrap.
+
+                            
+Components: Modernizr, jQuery, Bootstrap, popper.js
+
+                            
+Software: GitHub, Git, Ubuntu, iOS, Microsoft Windows.
+   
+                        
+
+                    

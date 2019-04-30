@@ -1,9 +1,31 @@
-<html>
-<head>
-<title>Success inviting your bot</title>
-</head>
-<body>
-<h1>SUCCESS!</h1>
-<p><strong>YOU have successfully invited this bot to your server! Using 'tb.' as a prefix for the commands! Use tb.help for help!</strong></p>
-</body>
-</html>
+<h1 id="successfulinvitation">Successful Invitation</h1>
+
+<p>The discord bot has ben successfully invited by <em>you</em>.</p>
+
+<p>Go back to <a href="https://discordapp.com">Discord</a> here.</p>
+
+<h1 id="retry">RETRY</h1>
+
+<p>Failed? tia(try it again) <a href="https://discordapp.com/api/oauth2/authorize?client_id=536111155706331139&amp;permissions=469056&amp;redirect_uri=https%3A%2F%2Fkcomain.github.io%2Fdiscord-success&amp;response_type=code&amp;scope=bot%20rpc%20rpc.api%20rpc.notifications.read">here!</a></p>
+
+<h1 id="urldata">URL data</h1>
+  <p id=queryURLdata>
+     Querying data...
+</p>
+<script>
+  // define data
+  var getParams = function (url) {
+	var params = {};
+	var parser = document.createElement('a');
+	parser.href = url;
+	var query = parser.search.substring(1);
+	var vars = query.split('&');
+	for (var i = 0; i < vars.length; i++) {
+		var pair = vars[i].split('=');
+		params[pair[0]] = decodeURIComponent(pair[1]);
+	}
+	return params;
+ };
+                                  //main code
+document.getElementById('queryURLdata').innerHTML = getParams(window.location.href);;
+</script>
