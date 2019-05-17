@@ -4,7 +4,7 @@
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" },
     { "id": 4, "title": "post promise"},
-    { id:4, title:"Test"}
+    { "id": 5, "title": "Test"}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
@@ -12,6 +12,6 @@
   ],
   "profile": {
     "name": "kcomain",
-    fullname: "Kenny Cheung"
+    "fullname": "Kenny Cheung"
   }
 }
