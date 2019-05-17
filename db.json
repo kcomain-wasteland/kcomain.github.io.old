@@ -6,6 +6,9 @@
     { "id": 4, "title": "post promise"},
     { "id": 5, "title": "Test"}
   ],
+  "users": [
+    { "username": "luke", "password":"6c756b65206e672070617373776420697320636f6f6c"}
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
