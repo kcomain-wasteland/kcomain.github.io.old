@@ -1,5 +1,4 @@
-LOL imao
-hacc
+LOL imao just something you don'e need to care about.
 
 ###### Ongoing database project
 
@@ -52,3 +51,4 @@ interv = setInterval(function() {
 	console.log($('.highlight').text())
 	console.log(item)
 }, 1)
+```
