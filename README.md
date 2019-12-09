@@ -1,7 +1,6 @@
 ![](https://img.shields.io/github/repo-size/kcomain/kcomain.github.io.svg?label=Repository%20size&style=popout)
 ![](https://img.shields.io/github/downloads/kcomain/kcomain.github.io/total.svg)
 [![](https://img.shields.io/github/issues/kcomain/kcomain.github.io.svg)](https://github.com/kcomain/kcomain.github.io/issues)
-![](https://img.shields.io/github/license/kcomain/kcomain.github.io.svg)
 [![](https://img.shields.io/github/release-pre/kcomain/kcomain.github.io.svg)](https://github.com/kcomain/kcomain.github.io/releases)
 [![](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=Website)](https://kcomain.github.io)
 [![Build Status](https://travis-ci.com/kcomain/kcomain.github.io.svg?branch=master)](https://travis-ci.com/kcomain/kcomain.github.io)
@@ -37,7 +36,7 @@ Moved to [News](/sitenews.md)
 Some codes are not provided by me.
 
 # Licence
-GPL v4
+![](https://img.shields.io/github/license/kcomain/kcomain.github.io.svg)
 <p id="dirlocachag">Can't load current directory.</p>
       <script>
       var dir = location.pathname.substring(0,location.pathname.lastIndexOf('/')+1);
