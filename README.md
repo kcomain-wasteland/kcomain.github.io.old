@@ -9,51 +9,40 @@
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/kcomain)
 [![CLA assistant](https://cla-assistant.io/readme/badge/kcomain/kcomain.github.io)](https://cla-assistant.io/kcomain/kcomain.github.io)
 # kcomain.github.io
-A web.
-_HAHA_
-this is my first hand created website? :ok_hand:
-Yes
-:innocent:
-:sunny:
+A webpage.
 
 # Want To discuss?
 Discuss about anything with me in these platforms
 [Slack](https://join.slack.com/t/kcocorp-prst/shared_invite/enQtNTA1OTE0MzQzMzk3LWVhMjA3YmZmNmIwOWJlN2RhNTE1ODYxN2ZkMGRmMDQ1ZmU3YjgzMDk4OWM0NTVkNDY5OGU1ZTc2NDYzMDE2M2Q)
 Gitter: [![Gitter](https://badges.gitter.im/kcomain_201/community.svg)](https://gitter.im/kcomain_201/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-Gitter: ![Gitter](https://img.shields.io/gitter/room/kcomain/kcomain.github.io)(Specifically for this repo)
 Discord: [![Discord](https://img.shields.io/discord/397074345475964929.svg?style=plastic)](https://discord.gg/8DRnhev)
 ## Others...?
 This page look like junk at first glance.
-I am creating folders and things later on.
+I will be creating folders and things later on.
 
-So, so not look at this page, it is only for people who like messy things like me XD
-### Mentions
-@kcomain
-#### Things...
-- [ ] A thing
 ## Things that will be stored in this website:
 * JS programs
 * Makecode Microbit Programs
 * html things
-* Misc. stuffs that i store in my computer(ITS ALL CODING STUFFS DONT WORRY)
 * Project things
 *So yeah!*
 
 ## News 
-
 Moved to [News](/sitenews.md)
 
 
-*[for webpage viewers](/sitenews.html)*
+*[for gh-page viewers](/sitenews.html)*
 
 ### Disclamer
 Some codes are not provided by me.
 
-<p id="dirlocachag">LMAO Can't load directory.</p>
+# Licence
+GPL v4
+<p id="dirlocachag">Can't load current directory.</p>
       <script>
       var dir = location.pathname.substring(0,location.pathname.lastIndexOf('/')+1);
       document.getElementById("dirlocachag").innerHTML = "Current Directory is "+dir;
-     </script><p id="dirlocachag">LMAO Can't load directory.</p>
+     </script><p id="dirlocachag">Can't load current directory.</p>
       <script>
       var dir = location.pathname.substring(0,location.pathname.lastIndexOf('/')+1);
       document.getElementById("dirlocachag").innerHTML = "Current Directory is "+dir;
