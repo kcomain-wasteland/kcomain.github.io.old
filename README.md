@@ -1,4 +1,3 @@
-[![](https://img.shields.io/discord/397074345475964929.svg?style=plastic)](https://discord.gg/8DRnhev)
 ![](https://img.shields.io/github/repo-size/kcomain/kcomain.github.io.svg?label=Repository%20size&style=popout)
 ![](https://img.shields.io/github/downloads/kcomain/kcomain.github.io/total.svg)
 [![](https://img.shields.io/github/issues/kcomain/kcomain.github.io.svg)](https://github.com/kcomain/kcomain.github.io/issues)
@@ -17,10 +16,12 @@ Yes
 :innocent:
 :sunny:
 
-# Want To speak?
-Join my slack at this address [Here!](https://join.slack.com/t/kcocorp-prst/shared_invite/enQtNTA1OTE0MzQzMzk3LWVhMjA3YmZmNmIwOWJlN2RhNTE1ODYxN2ZkMGRmMDQ1ZmU3YjgzMDk4OWM0NTVkNDY5OGU1ZTc2NDYzMDE2M2Q)
-
-Or, my discord server at the image above!(Contain one nsfw channel.)
+# Want To discuss?
+Discuss about anything with me in these platforms
+[Slack](https://join.slack.com/t/kcocorp-prst/shared_invite/enQtNTA1OTE0MzQzMzk3LWVhMjA3YmZmNmIwOWJlN2RhNTE1ODYxN2ZkMGRmMDQ1ZmU3YjgzMDk4OWM0NTVkNDY5OGU1ZTc2NDYzMDE2M2Q)
+Gitter: [![Gitter](https://badges.gitter.im/kcomain_201/community.svg)](https://gitter.im/kcomain_201/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+Gitter: ![Gitter](https://img.shields.io/gitter/room/kcomain/kcomain.github.io)(Specifically for this repo)
+Discord: [![Discord](https://img.shields.io/discord/397074345475964929.svg?style=plastic)](https://discord.gg/8DRnhev)
 ## Others...?
 This page look like junk at first glance.
 I am creating folders and things later on.
