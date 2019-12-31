@@ -1,0 +1,30 @@
+
+cs
+pu
+rt pick [10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340 350 360]
+fd pick [1 2 4 8 16 32 64]
+pd
+to star
+  repeat 5 [ fd pick [10 20 30 40 50 60 70 80 90 100] rt pick [10 25 50 100 151 144 4678] ]
+end
+repeat 1010[star]
+ 
+ht 
+cs
+pd
+dotimes [count 3000][
+  fd :count
+  rt 90
+  show :count
+]
+
+
+
+
+
+
+
+
+
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA

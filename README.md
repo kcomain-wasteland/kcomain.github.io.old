@@ -8,6 +8,7 @@
 [![Build Status](https://travis-ci.com/kcomain/kcomain.github.io.svg?branch=master)](https://travis-ci.com/kcomain/kcomain.github.io)
 [![Web Image](resources/86EB92AA-CEC9-4E95-8542-00B9ECCCB03D.png)](https://kcomain.github.io)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/kcomain)
+[![CLA assistant](https://cla-assistant.io/readme/badge/kcomain/kcomain.github.io)](https://cla-assistant.io/kcomain/kcomain.github.io)
 # kcomain.github.io
 A web.
 _HAHA_
